@@ -49,6 +49,9 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#team">Team</a>
             </li>
+			<li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#twitch">Twitch</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -323,6 +326,32 @@
         </div>
       </div>
     </section>
+	
+	
+	
+	<section class="bg-light" id="twitch">
+		<div class="container">
+
+			<!-- Add a placeholder for the Twitch embed -->
+			<div id="twitch-embed"></div>
+
+			<!-- Load the Twitch embed script -->
+			<script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+			<!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+			<script type="text/javascript">
+			  new Twitch.Embed("twitch-embed", {
+				width: 1280,
+				height: 720,
+				channel: "nookyyy"
+			  });
+			</script>
+
+				</div>
+
+	</section>
+	
+	
 
     <!-- Footer -->
     <footer>
