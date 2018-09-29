@@ -375,14 +375,17 @@
 			<div id="twitch-embed"></div>
 
 			<!-- Load the Twitch embed script -->
-			<script src="https://embed.twitch.tv/embed/v1.js"></script>
+			<script src="https://embed.twitch.tv/embed/v1.js"  chat="mobile"></script>
 
 			<!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
 			<script type="text/javascript">
 			  new Twitch.Embed("twitch-embed", {
 				width: 1400,
 				height: 800,
-				channel: "nookyyy"
+				channel: "nookyyy",
+				chat: "mobile",
+				allowfullscreen: false,
+				autoplay: false
 			  });
 			</script>
 		</div>
@@ -443,13 +446,17 @@
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">Nils "DRT¿?¿?" Maiskolben</h2>
                   <p class="item-intro text-muted">Riffler</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                  <p>Hier sollst du was über dich rein schreiben!</p>
-                  <ul class="list-inline">
-                    <li>Date: 1. Januar 1970</li>
-                    <li>Ort: Hannover</li>
-                    <li>Lieblingswaffe: AK-47</li>
-                  </ul>
+					<table>
+						  <tr>
+							<td><img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt=""></td><td></td><td><p>Hier sollst du was über dich rein schreiben</p>
+						  <ul class="list-inline">
+							<li>Date: 1. Januar 1990</li>
+							<li>Ort: Hannover</li>
+							<li>Lieblingswaffe: AK-47</li>
+						  </ul>
+						  </td>
+						  </tr>
+					</table>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
                     Bio schließen</button>
@@ -477,13 +484,17 @@
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">Kai "DerRallige" Fisch</h2>
                   <p class="item-intro text-muted">Team Leader</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                  <p>Hier sollst du was über dich rein schreiben!</p>
-                  <ul class="list-inline">
-                    <li>Date: 1. Januar 1970</li>
-                    <li>Ort: Hannover</li>
-                    <li>Lieblingswaffe: AK-47</li>
-                  </ul>
+					<table>
+						  <tr>
+							<td><img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt=""></td><td></td><td><p>Hier sollst du was über dich rein schreiben</p>
+						  <ul class="list-inline">
+							<li>Date: 1. Januar 1990</li>
+							<li>Ort: Frankfurt</li>
+							<li>Lieblingswaffe: AWP</li>
+						  </ul>
+						  </td>
+						  </tr>
+					</table>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
                     Bio schließen</button>
@@ -508,17 +519,21 @@
             <div class="row">
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Marcel "Jpn62" Ösi</h2>
-                  <p class="item-intro text-muted">Decoy</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                  <p>Hier sollst du was über dich rein schreiben</p>
-                  <ul class="list-inline">
-                    <li>Date: 20. Mai 2000</li>
-                    <li>Ort: Kalsdorf</li>
-                    <li>Lieblingswaffe: AK-47</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+					<!-- Project Details Go Here -->
+					<h2 class="text-uppercase">Marcel "Jpn62" Ösi</h2>
+					<p class="item-intro text-muted">Decoy</p>
+					<table>
+						  <tr>
+							<td><img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt=""></td><td></td><td><p>Hier sollst du was über dich rein schreiben</p>
+						  <ul class="list-inline">
+							<li>Date: 20. Mai 2000</li>
+							<li>Ort: Kalsdorf</li>
+							<li>Lieblingswaffe: M4A4</li>
+						  </ul>
+						  </td>
+						  </tr>
+					</table>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
                     Bio schließen</button>
                 </div>
@@ -545,14 +560,18 @@
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">Sascha "Salami" Wurster</h2>
                   <p class="item-intro text-muted">Nadeking</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
-                  <p>Hier sollst du was über dich rein schreiben</p>
+				  <table>
+				  <tr>
+					<td><img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt=""></td><td></td><td><p>Hier sollst du was über dich rein schreiben</p>
                   <ul class="list-inline">
-                    <li>Date: 1. Januar 1970</li>
-                    <li>Ort: Hannover</li>
-                    <li>Lieblingswaffe: Flashbang</li>
+                    <li>Date: 1. Januar 1990</li>
+                    <li>Ort: Nürnberg</li>
+                    <li>Lieblingswaffe: AK-47</li>
                   </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+				  </td>
+				  </tr>
+				</table>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
                     Bio schließen</button>
                 </div>
@@ -579,13 +598,19 @@
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">Marcel "Dietze_" Sexy</h2>
                   <p class="item-intro text-muted">richtiger Noob</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
-                  <p>Hier sollst du was über dich rein schreiben</p>
+				  <table>
+				  <tr>
+					<td><img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt=""></td><td></td><td><p>Hier sollst du was über dich rein schreiben</p>
                   <ul class="list-inline">
                     <li>Date: 1. Mai 1995</li>
                     <li>Ort: Karlsruhe</li>
                     <li>Lieblingswaffe: AK-47</li>
                   </ul>
+				  </td>
+				  </tr>
+				</table>
+                  
+                  
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
                     Bio schließen</button>
@@ -725,7 +750,8 @@
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">Marcel "Dietze_" Dietz</h2>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/6mWB4fDcYEc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>				  
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/6mWB4fDcYEc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br>
+					<a href="img/troll/troll1.png"><img src="img/troll/troll1.png" width="640" height="480"></a>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
                     Kanal schließen</button>
