@@ -1,8 +1,8 @@
 {
-    "title": "Agency",
-    "name": "startbootstrap-agency",
-    "version": "5.0.2",
-    "description": "Agency is a one page HTML theme for Bootstrap.",
+    "title": "Cantina Band",
+    "name": "Dietz Marcel",
+    "version": "1.0",
+    "description": "OnePager",
     "keywords": [
         "css",
         "sass",
@@ -11,19 +11,19 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/agency",
+    "homepage": "dietze1595.github.io",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-agency/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "https://github.com/dietze1595",
+        "email": "marcel-dietz@gmx.net"
     },
     "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "Marcel Dietz",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
+        "Marcel Dietz (http://github.com/dietze1595)"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-agency.git"
+        "url": "https://github.com/dietze1595"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.3.1",
