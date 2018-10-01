@@ -68,6 +68,7 @@
         <div class="intro-text">
           <div class="intro-lead-in">Willkommen auf unserer Seite</div>
           <div class="intro-heading text-uppercase">Freut mich dich zu sehen</div>
+		  <div class="intro-heading text-uppercase">Wenn dich die Musik stört kannst du sie ganz unten deaktivieren</div>
           <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Hier gehts weiter</a>
         </div>
       </div>
@@ -413,7 +414,6 @@
           </div>
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
-				<iframe src="silence.mp3" allow="autoplay" id="audio"></iframe>
 				<audio id="player" autoplay controls><source src="Cantina.mp3" type="audio/mp3"></audio>
             </ul>
           </div>
@@ -806,8 +806,11 @@
     </div>	
 	
 	
-	
-
+	<!-- Volume Cantina -->
+	<script>
+	  var audio = document.getElementById("player");
+	  audio.volume = 0.1;
+	</script>
     
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -822,6 +825,7 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
+	<iframe src="silence.mp3" allow="autoplay" id="audio"></iframe>
 
   </body>
 
