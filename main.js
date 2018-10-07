@@ -1,22 +1,3 @@
-/* let formData = {
-  'url': 'https://csgo.99damage.de/de/leagues/99dmg/989-saison-10/group/1217-starter-28',
-  'team': ''
-};
-$.ajax({
-  type: 'GET', // define the type of HTTP verb we want to use (POST for our form)
-  url: 'http://51.255.133.141:3000/matches', // the url where we want to POST
-  data: formData, // our data object
-  dataType: 'json', // what type of data do we expect back from the server
-  encode: true
-})
-.done(function (data) {
-  trHTML = ''
-  $.each(data, function (i, item) {
-    trHTML += '<tr><td>' + item.team1 + '</td><td>' + item.team2 + '</td><td>' + item.tag + '</td><td>' + item.result + '</td></tr>';
-  });
-  $('tbody').append(trHTML)
-});  */
-
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
