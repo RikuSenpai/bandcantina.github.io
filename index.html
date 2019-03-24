@@ -128,6 +128,30 @@
 
 	  
 	  
+		<!-- Twitch -->
+	<section id="twitch">
+		<div class="container">
+
+			<!-- Add a placeholder for the Twitch embed -->
+			<div id="twitch-embed"></div>
+
+			<!-- Load the Twitch embed script -->
+			<script src="https://embed.twitch.tv/embed/v1.js"  chat="mobile"></script>
+
+			<!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+			<script type="text/javascript">
+			  new Twitch.Embed("twitch-embed", {
+				width: 1280,
+				height: 960,
+				channel: "timmythesheep1",
+				autoplay: false
+			  });
+			</script>
+		</div>
+	</section>
+	  
+	  
+	  
 <section id="info">
 	<div class="container">
         	<div class="row">
@@ -501,27 +525,6 @@
     </section>
 	
 	
-	<!-- Twitch -->
-	<section id="twitch">
-		<div class="container">
-
-			<!-- Add a placeholder for the Twitch embed -->
-			<div id="twitch-embed"></div>
-
-			<!-- Load the Twitch embed script -->
-			<script src="https://embed.twitch.tv/embed/v1.js"  chat="mobile"></script>
-
-			<!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
-			<script type="text/javascript">
-			  new Twitch.Embed("twitch-embed", {
-				width: 1280,
-				height: 960,
-				channel: "timmythesheep1",
-				autoplay: false
-			  });
-			</script>
-		</div>
-	</section>
 	
 	
 
